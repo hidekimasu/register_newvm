@@ -1,0 +1,57 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Sun May 14 22:26:16 2017 GMT by CPAN::Checksums (v2.12)
+$cksum = {
+  'Crypt-X509-0.40.meta' => {
+    'md5' => '735f1542efaa61d6949f4a2b6574bae2',
+    'mtime' => '2009-04-23',
+    'sha256' => '41c25b58c3d4ef686edfb5a7ab4c1eb9c3588ab1f0e15ee6e2b0e0c99a3c04b6',
+    'size' => 449
+  },
+  'Crypt-X509-0.40.tar.gz' => {
+    'md5' => '29461a6241c9b763393dd3f45c0919d1',
+    'md5-ungz' => '5adc1465d1af8f7ccb56e60e0b9acec2',
+    'mtime' => '2009-04-23',
+    'sha256' => '9c36246a429921002018322bceb49ca36f8fab432ba57eeaed84b0340a9cc50e',
+    'sha256-ungz' => 'ec20de0390a92eb17175452cb5918fd5749b22e0379b13643923301f2c5c6f24',
+    'size' => 19352
+  },
+  'Crypt-X509-0.50.meta' => {
+    'md5' => '778ecee6f9cdb914315edb6757d7e78d',
+    'mtime' => '2011-01-07',
+    'sha256' => '414f8001d31253a75027b2369bc0b00fe898eddd55d970ea25be328349d4cfc2',
+    'size' => 563
+  },
+  'Crypt-X509-0.50.tar.gz' => {
+    'md5' => '482794b50c9a522b27ac2a2ce5c814c2',
+    'md5-ungz' => 'b22c8d63d8c88d95ff95ed957e4e4ff6',
+    'mtime' => '2011-01-07',
+    'sha256' => 'c333341d429e87f158883daf828d8980e8be82052a5bd9c6bde8388a0a050048',
+    'sha256-ungz' => 'a4a202553dfe28e7a23aa08d55c0ecfa11628314d4f7c9bd15df7160a3e75d1e',
+    'size' => 21461
+  },
+  'Crypt-X509-0.51.meta' => {
+    'md5' => '97914510290d831cec4d184f82903072',
+    'mtime' => '2011-07-06',
+    'sha256' => '10fdd304ae93dc107afb3c3fa3aff530d9b6261d0487ef304f4d2f131f864425',
+    'size' => 563
+  },
+  'Crypt-X509-0.51.tar.gz' => {
+    'md5' => 'aadab2960d2bd65a212d1bd7f50e282a',
+    'md5-ungz' => 'c6384b58a95d5e518555347e4f2f171b',
+    'mtime' => '2011-07-06',
+    'sha256' => '0fa08246f6342cc4f6d5592ffb4a48b68a6aa49c5d65d0773769252d9ba743f3',
+    'sha256-ungz' => 'd2959816dc90c20564c6a055a59ece29af7933feca582964bfedca4a7f103da4',
+    'size' => 21416
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iEYEARECAAYFAlkY2YgACgkQMo2oZ0UPiewxFQCfS267X/OCF6CDwVLVEAS+zsNj
+9soAnAwTUyFQaWDyrqEQtyCeSo3EdCEC
+=GEW9
+-----END PGP SIGNATURE-----

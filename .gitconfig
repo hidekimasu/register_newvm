@@ -1,0 +1,5 @@
+[user]
+	name = hidemynimo
+	email = hidekimasu5@gmail.com
+[core]
+	editor = vim -f

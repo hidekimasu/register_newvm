@@ -1,0 +1,40 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.81.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 5dd03065ad95845ec70baa4c92c396dc3ef15efb .gitignore
+SHA1 8a4b268576899ecee2db86a9cdf40912a4bdca20 Changes
+SHA1 78f7d31b9283b034cf19e61bc70d24bb38581b1e LICENSE
+SHA1 d1b344f1315cebc307771957afb228ff85a5eb2c MANIFEST
+SHA1 d94d8a01a0b427ee5d3fbd7d23b1b0114f28ae2a META.json
+SHA1 0a6fecb9347012ff3c74f4f00c1150f246a3160b META.yml
+SHA1 952c5a7ab166bbb84b083194b58ad938acc9d488 Makefile.PL
+SHA1 adde4138362d420b3262fa08289190ab1de3dbe7 README
+SHA1 640247ce0d22fc286c9bc6cf54aa4cc7933257cc Random.pm
+SHA1 96741e2c68170512e8fc38829466d1e041c3a3ec Random.xs
+SHA1 f3b7242c48c8d393b6c5803d8502e7e22c03818d hints/MSWin32.pl
+SHA1 fa94838ecdaeccd2bf162caf7014a624dc1e66a7 t/0-basic.t
+SHA1 7de5e8f63465d9711faa107972ebce8e1349ccd6 t/z_kwalitee.t
+SHA1 9eba44de180daef6319b2c4a75ab55c972844c0e t/z_manifest.t
+SHA1 993b3cef8c06a70d99829facf76140864eb57240 t/z_meta.t
+SHA1 ade48e2b6098a0a329312543e1451e7e7fb7bc5f t/z_perl_minimum_version.t
+SHA1 1dbe44e2091ab84d8462fda2052e35bf1354d963 t/z_pod-coverage.t
+SHA1 c8aa3903d3aba84c19bbd94d677620c758fa07d5 t/z_pod.t
+-----BEGIN PGP SIGNATURE-----
+
+iF0EARECAB0WIQRZHhhUcL58V8z0UW2abZJij/3JQgUCWtx9VwAKCRCabZJij/3J
+QhYZAJ4+84dWP+yDFoHPgGav+N8aEd24RQCeKkgjjC8PDobdCOmJhmZkRoph0B8=
+=JBj5
+-----END PGP SIGNATURE-----
