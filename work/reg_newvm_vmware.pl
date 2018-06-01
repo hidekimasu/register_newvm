@@ -80,11 +80,14 @@ sub vmware_setup {
 }
 
 sub vmware_run {
+    my @vm_hosts;
     my $vm_list = $vm_service->list();
     foreach my $vm (@$vm_list) {
+      push @vm_hosts, $vm->get_name();
         print $vm->get_name()."\n";
 #print Dumper($vm);
     }
+    return \@vm_hosts;
 }
 
 #
@@ -95,13 +98,16 @@ sub vmware_run {
 #
 
 # Call main
-&main();
+#&main();
 
-sub main() {
-   vmware_init( 'administrator@vsphere.local', 'Insight1310!', '192.168.99.166');
-   vmware_setup();
-   vmware_run();
-   log_info( MSG => "#### Done!" );
-}
+#sub main() {
+#   vmware_init( 'root', 'insight', '192.168.99.85');
+#   vmware_setup();
+#   vmware_run();
+#   log_info( MSG => "#### Done!" );
+#}
+1;
 
 # END
+
+
