@@ -148,6 +148,10 @@ sub main() {
    init();
    setup();
    run();
+
+#   require('/home/masu/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm');
+   get_mgmt_node();
+
    log_info( MSG => "#### Done!" );
 }
 

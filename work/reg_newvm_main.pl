@@ -19,8 +19,8 @@ sub main() {
   my $vcent_svr   = "192.168.99.166";
   my $vcent_hname = "vCenter6.5";
 
-  require ( './reg_newvm_act.pl' );
-  require ( './reg_newvm_vmware.pl');
+  require ( './reg_newvm_act.pm' );
+  require ( './reg_newvm_vmware.pm');
 
   my $sessionid = act_login( $actifio, $name, $pswd, $vdrk);
   print $sessionid."\n";

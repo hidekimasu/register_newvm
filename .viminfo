@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/vmdisc
+~MSle0~/animal
 
 # Last Substitute Search Pattern:
 ~MSle0&x$
@@ -17,26 +17,47 @@
 $xxxx
 
 # Command Line History (newest to oldest):
+:wq
 :q
 :w
+:42
+:22
+:41
+:45
+:30
+:23
+:19
+:25
+:16
+:1
+:set number
+:q!
+:347
+:28
+:13
+:26
+:24
+:1,$s/esx/host/g
+:18
+:w!
+:48
+:99
+:29
+:39
+:107
+:10
 :72
 :119
 :90
 :79
-:wq
 :8
 :92
 :94
 :104
 :82
-:1
-:25
 :85
 :71
 :ww
-:10
-:18
-:16
 :15
 :74
 :54
@@ -46,74 +67,58 @@ $xxxx
 :56
 :55
 :62
-:60
-:q!
-:w /tmp/gethost2.sh
-:w gethost2.sh
-:w!
-:w lshost2.pl
-:34
-:39
-:46
-:33
-:30
-:28
-:14
-:17
-:set nu
-:1,$s/x$/xxxx
 
 # Search String History (newest to oldest):
-?/vmdisc
-?/vcent_na
-? \<main\>
-?/http
-?/log_info
-?/params
-?/server
-?/Options
-?/requir
-?/init
-?/username
-?/--username
-?/
-?/sample
-?/vm_servi
-?/dumper
-?/host
-?/req
-?/content
-?/auth
-?/data
-?/use
-?/LWP
-?/agent
-?/hoge
-?/orph
-?/or
-?/Orph
+?/esx_vm
+?/animal
+?/\.85
+?/85
 ?/name
-?/MSG
+?/host_view
+?/hosted
+?/host
+?/Located
+?/cluster
+?/main
+?/opts
+?/list
 ?/vm_service
-?/get_name
-?/nu
-?/xxxx
-? x$
-?/x
-?/RHEL68-Post
-?/post
-?/win2008-postgre
-?/rhel69-post
-?/mongodb
-?/Windows10
-?/Source
-?/Target
-?/Delphix
-?/Win2012
-?/win2012
-?/Sky
-?/SKY
-?/AGM
+?/run
+?/params
+?/password
+?/user_name
+?/UNI
+?/home/masu/vsphere-automation-sdk-perl/samples/Common/SampleBase.
+?/Uni
+?/Vim
+?/login
+?/add_option
+?/servi
+?/Web
+?/lookup
+?/;
+?/new
+?/Opts
+?/add_options
+?/validate
+?/Validate
+?/get_vm_info
+?/get_vms
+?/toolsStatus
+?/filter_hash
+?/create_hash
+?/filter
+?/Information
+?/filter_has
+?/url
+? esx
+?/valid_properties
+?/valid
+?/toolsSta
+?/cleanup
+?/requi
+?/require	
+?/hoge
 
 # Expression History (newest to oldest):
 
@@ -123,688 +128,483 @@ $xxxx
 
 # Registers:
 "0	LINE	0
-	  my $ua = LWP::UserAgent->new;
-	  $ua->ssl_opts(verify_hostname => 0, SSL_verify_mode => 0x00);
+	  print $pref." @{$japan{$pref}}";
 "1	LINE	0
-	  print $vm_hosts;
+	  
 "2	LINE	0
-	  print $vm_hosts."\n";
-"3	LINE	0
 	
+"3	LINE	0
+	  print "\n";
 "4	LINE	0
-	#        print $vm->get_name()."\n";
+	
 "5	LINE	0
-	#print Dumper($vm);
+	push 
 "6	LINE	0
-	    print "\n";
+	my %japan 
 "7	LINE	0
-	    print @vm_hosts;
+	
 "8	LINE	0
-	  print join(',', @{$vm_hosts_ref})."\n";
+	);
 "9	LINE	0
-	print "\n";
+		'cat',
 ""-	CHAR	0
-	?
+	town
 
 # File marks:
-'0  69  138  ~/work/lshost.pl
-'1  104  0  ~/work/vmware_vms_list.pl
-'2  111  4  ~/work/lshost.pl
-'3  89  1  ~/work/vmware_vms_list.pl
-'4  90  0  ~/work/list_vms_test.pl
-'5  11  1  ~/work/perl-test/sub.pl
-'6  5  10  ~/work/perl-test/sub.pl
-'7  8  17  ~/work/perl-test/sub.pl
-'8  5  21  ~/work/perl-test/main.pl
-'9  87  11  ~/work/vmware_vms_list.pl
+'0  4  0  ~/.git/COMMIT_EDITMSG
+'1  46  2  ~/work/perl-test/region_ref.pl
+'2  1  0  ~/work/perl-test/vimtest2.pl
+'3  33  0  ~/work/perl-test/region_ref.pl
+'4  23  10  ~/work/perl-test/array_ref2.pl
+'5  22  21  ~/work/perl-test/array_ref2.pl
+'6  6  16  ~/work/perl-test/array_ref2.pl
+'7  19  8  ~/work/perl-test/array_ref2.pl
+'8  19  14  ~/work/perl-test/array_ref.pl
+'9  20  6  ~/work/perl-test/array_ref.pl
 
 # Jumplist (newest first):
--'  69  138  ~/work/lshost.pl
--'  132  6  ~/work/lshost.pl
--'  124  6  ~/work/lshost.pl
--'  95  0  ~/work/lshost.pl
--'  64  20  ~/work/lshost.pl
--'  74  0  ~/work/lshost.pl
--'  66  0  ~/work/lshost.pl
--'  127  19  ~/work/lshost.pl
--'  98  22  ~/work/lshost.pl
--'  65  34  ~/work/lshost.pl
--'  87  31  ~/work/lshost.pl
--'  111  4  ~/work/lshost.pl
--'  104  0  ~/work/vmware_vms_list.pl
--'  3  3  ~/work/vmware_vms_list.pl
--'  89  0  ~/work/vmware_vms_list.pl
--'  113  6  ~/work/lshost.pl
--'  99  0  ~/work/vmware_vms_list.pl
--'  87  4  ~/work/vmware_vms_list.pl
--'  90  0  ~/work/list_vms_test.pl
--'  74  0  ~/work/list_vms_test.pl
--'  73  0  ~/work/list_vms_test.pl
--'  11  1  ~/work/perl-test/sub.pl
--'  5  0  ~/work/perl-test/sub.pl
--'  8  2  ~/work/perl-test/sub.pl
--'  9  0  ~/work/perl-test/sub.pl
--'  5  21  ~/work/perl-test/main.pl
--'  1  0  ~/work/perl-test/main.pl
--'  85  0  ~/work/vmware_vms_list.pl
--'  100  0  ~/work/vmware_vms_list.pl
--'  98  0  ~/work/vmware_vms_list.pl
--'  84  31  ~/work/vmware_vms_list.pl
--'  86  4  ~/work/vmware_vms_list.pl
--'  2  0  ~/work/vmware_vms_list.pl
--'  1  0  ~/work/vmware_vms_list.pl
--'  104  0  ~/work/list_vms_fix.pl
--'  14  0  ~/work/list_vms_fix.pl
--'  13  0  ~/work/list_vms_fix.pl
--'  131  0  ~/work/list_vms.pl
--'  117  0  ~/work/list_vms.pl
--'  116  0  ~/work/list_vms.pl
--'  79  11  ~/work/lshost.pl
--'  101  0  ~/work/lshost.pl
--'  100  2  ~/work/lshost.pl
--'  6  0  ~/work/list_vms.pl
--'  3  0  ~/work/list_vms.pl
--'  7  0  ~/work/gethost2.sh
--'  8  0  ~/work/gethost2.sh
--'  145  0  ~/work/list_vms.pl
--'  60  0  ~/work/list_vms_fix.pl
--'  59  0  ~/work/list_vms_fix.pl
--'  21  0  ~/work/list_vms_test.pl
--'  17  0  ~/work/list_vms_test.pl
--'  13  0  ~/work/login-old.pl
--'  4  0  ~/work/login-old.pl
--'  5  0  ~/work/login-old.pl
--'  1  0  ~/work/login-old.pl
+-'  4  0  ~/.git/COMMIT_EDITMSG
+-'  1  0  ~/.git/COMMIT_EDITMSG
+-'  46  2  ~/work/perl-test/region_ref.pl
+-'  41  28  ~/work/perl-test/region_ref.pl
+-'  42  28  ~/work/perl-test/region_ref.pl
+-'  33  0  ~/work/perl-test/region_ref.pl
+-'  1  0  ~/work/perl-test/vimtest2.pl
+-'  1  0  ~/work/perl-test/region_ref.pl
+-'  23  10  ~/work/perl-test/array_ref2.pl
+-'  22  0  ~/work/perl-test/array_ref2.pl
+-'  6  0  ~/work/perl-test/array_ref2.pl
+-'  10  4  ~/work/perl-test/array_ref2.pl
+-'  19  0  ~/work/perl-test/array_ref2.pl
+-'  1  0  ~/work/perl-test/array_ref2.pl
+-'  19  14  ~/work/perl-test/array_ref.pl
+-'  20  0  ~/work/perl-test/array_ref.pl
+-'  18  0  ~/work/perl-test/array_ref.pl
+-'  27  0  ~/work/perl-test/array_ref.pl
+-'  25  0  ~/work/perl-test/array_ref.pl
+-'  14  0  ~/work/perl-test/array_ref.pl
+-'  26  2  ~/work/perl-test/array_ref.pl
+-'  23  0  ~/work/perl-test/array_ref.pl
+-'  22  0  ~/work/perl-test/array_ref.pl
+-'  21  0  ~/work/perl-test/array_ref.pl
+-'  13  1  ~/work/perl-test/array_ref.pl
+-'  16  0  ~/work/perl-test/array_ref.pl
+-'  5  0  ~/work/perl-test/array_ref.pl
+-'  1  0  ~/work/perl-test/array_ref.pl
+-'  8  3  ~/work/perl-test/test1.pl
+-'  1  0  ~/work/perl-test/test1.pl
+-'  10  16  ~/work/whichClusterIsMyVMIn.pl
+-'  46  28  ~/work/whichClusterIsMyVMIn.pl
+-'  58  14  ~/work/whichClusterIsMyVMIn.pl
+-'  77  0  ~/work/whichClusterIsMyVMIn.pl
+-'  20  0  ~/work/whichClusterIsMyVMIn.pl
+-'  41  61  ~/work/whichClusterIsMyVMIn.pl
+-'  44  36  ~/work/whichClusterIsMyVMIn.pl
+-'  71  3  ~/work/whichClusterIsMyVMIn.pl
+-'  56  0  ~/work/whichClusterIsMyVMIn.pl
+-'  72  0  ~/work/whichClusterIsMyVMIn.pl
+-'  76  0  ~/work/whichClusterIsMyVMIn.pl
+-'  74  11  ~/work/whichClusterIsMyVMIn.pl
+-'  78  0  ~/work/whichClusterIsMyVMIn.pl
+-'  12  0  ~/work/whichClusterIsMyVMIn.pl
+-'  67  32  ~/work/whichClusterIsMyVMIn.pl
+-'  79  0  ~/work/whichClusterIsMyVMIn.pl
+-'  1  0  ~/work/whichClusterIsMyVMIn.pl
+-'  38  0  /usr/lib/vmware-vcli/apps/vm/vminfo.pl
+-'  314  0  /usr/lib/vmware-vcli/apps/vm/vminfo.pl
+-'  299  16  /usr/lib/vmware-vcli/apps/vm/vminfo.pl
+-'  377  0  /usr/lib/vmware-vcli/apps/vm/vminfo.pl
+-'  319  13  /usr/lib/vmware-vcli/apps/vm/vminfo.pl
+-'  169  9  /usr/lib/vmware-vcli/apps/vm/vminfo.pl
+-'  57  11  /usr/lib/vmware-vcli/apps/vm/vminfo.pl
+-'  109  0  /usr/lib/vmware-vcli/apps/vm/vminfo.pl
+-'  54  11  /usr/lib/vmware-vcli/apps/vm/vminfo.pl
+-'  222  12  /usr/lib/vmware-vcli/apps/vm/vminfo.pl
+-'  30  3  ~/work/reg_newvm_vmware.pm
+-'  66  0  ~/work/reg_newvm_vmware.pm
+-'  51  0  ~/work/reg_newvm_vmware.pm
+-'  65  1  ~/work/reg_newvm_vmware.pm
+-'  69  3  ~/work/reg_newvm_vmware.pm
+-'  7  0  ~/work/vminfo.pl
+-'  25  0  ~/work/vminfo.pl
+-'  5  0  ~/work/list_vms.pl
+-'  152  0  ~/work/list_vms.pl
+-'  155  0  ~/work/list_vms.pl
+-'  95  0  ~/work/list_vms.pl
+-'  93  6  ~/work/list_vms.pl
+-'  24  8  ~/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+-'  89  0  ~/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+-'  48  8  ~/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+-'  242  3  ~/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+-'  146  0  ~/work/list_vms.pl
+-'  241  0  ~/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+-'  102  0  ~/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+-'  41  10  ~/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+-'  67  24  ~/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+-'  87  0  ~/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+-'  243  0  ~/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+-'  119  6  ~/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+-'  120  6  ~/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+-'  154  3  ~/vsphere-automation-sdk-perl/sample-template/sample_test.pl
+-'  43  0  ~/work/list_vms.pl
 -'  53  0  ~/work/list_vms.pl
--'  51  0  ~/work/list_vms.pl
--'  27  0  ~/work/login.pl
--'  26  6  ~/work/login.pl
--'  10  17  ~/scrape/scrape2.pl
--'  11  2  ~/scrape/scrape2.pl
--'  23  0  ~/scrape/scrape2.pl
--'  9  21  ~/scrape/scrape2.pl
--'  25  0  ~/scrape/scrape2.pl
--'  15  0  ~/scrape/scrape2.pl
--'  22  0  ~/scrape/scrape2.pl
--'  1  0  ~/scrape/scrape2.pl
--'  9  13  ~/scrape/scrape.pl
--'  7  0  ~/work/lshost.pl
--'  45  2  ~/work/lshost.pl
--'  97  8  ~/work/list_vms_fix.pl
--'  1  0  ~/work/list_vms_fix.pl
--'  94  3  ~/work/list_vms.pl
--'  52  0  ~/work/list_vms.pl
--'  61  3  ~/work/list_vms.pl
--'  62  0  ~/work/list_vms.pl
--'  102  0  ~/work/list_vms.pl
--'  1  0  ~/work/list_vms.pl
--'  118  0  ~/work/list_vms.pl
--'  57  26  ~/work/list_vms.pl
--'  65  37  ~/work/list_vms.pl
--'  47  28  ~/work/list_vms.pl
--'  69  10  ~/work/list_vms.pl
--'  74  31  ~/work/list_vms.pl
--'  70  39  ~/work/list_vms.pl
--'  76  31  ~/work/list_vms.pl
--'  72  0  ~/work/list_vms.pl
--'  20  2  ~/work/list_vms.pl
+-'  131  4  ~/work/list_vms.pl
+-'  18  3  ~/work/reg_newvm_vmware.pm
+-'  121  6  ~/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+-'  157  0  ~/vsphere-automation-sdk-perl/sample-template/sample_template.pl
+-'  159  34  ~/vsphere-automation-sdk-perl/sample-template/sample_template.pl
+-'  93  25  ~/vsphere-automation-sdk-perl/sample-template/sample_template.pl
+-'  73  13  ~/vsphere-automation-sdk-perl/sample-template/sample_template.pl
+-'  50  4  ~/vsphere-automation-sdk-perl/sample-template/sample_template.pl
+-'  13  0  ~/vsphere-automation-sdk-perl/sample-template/sample_template.pl
+-'  3  0  ~/vsphere-automation-sdk-perl/sample-template/sample_template.pl
+-'  91  3  ~/vsphere-automation-sdk-perl/sample-template/sample_template.pl
+-'  55  0  ~/vsphere-automation-sdk-perl/samples/Vcenter/Vm/delete_vm.pl
+-'  60  0  ~/vsphere-automation-sdk-perl/samples/Vcenter/Vm/delete_vm.pl
+-'  1  0  ~/vsphere-automation-sdk-perl/samples/Vcenter/Vm/delete_vm.pl
 
 # History of marks within files (newest to oldest):
 
-> ~/work/lshost.pl
-	"	69	138
-	^	69	88
-	.	69	138
-	+	101	18
-	+	101	15
-	+	110	36
-	+	120	2
-	+	117	3
-	+	110	35
-	+	110	6
-	+	120	3
-	+	113	30
-	+	112	38
-	+	113	1
-	+	117	2
-	+	113	36
-	+	116	6
-	+	114	33
-	+	120	0
-	+	110	4
-	+	115	12
-	+	116	13
-	+	117	7
-	+	118	6
-	+	119	4
-	+	113	32
-	+	114	40
-	+	113	0
-	+	112	31
-	+	101	0
-	+	101	0
-	+	101	0
-	+	101	0
-	+	108	21
-	+	100	6
-	+	108	6
-	+	100	17
-	+	108	15
-	+	112	41
-	+	108	7
-	+	112	41
-	+	108	6
-	+	112	26
-	+	120	0
-	+	110	0
-	+	111	3
-	+	112	3
-	+	114	0
-	+	114	40
-	+	108	32
-	+	121	2
-	+	121	0
-	+	121	39
-	+	114	0
-	+	112	0
-	+	101	0
-	+	107	0
-	+	103	7
-	+	105	23
-	+	108	0
-	+	105	10
-	+	106	6
-	+	121	0
-	+	111	4
-	+	126	52
-	+	131	0
-	+	132	39
-	+	87	31
-	+	132	31
-	+	65	19
-	+	74	1
-	+	65	34
-	+	127	66
-	+	131	22
-	+	84	12
-	+	87	12
-	+	85	16
-	+	86	16
-	+	132	26
-	+	98	22
-	+	65	13
-	+	127	4
-	+	131	0
-	+	129	29
-	+	130	57
-	+	131	0
-	+	132	42
-	+	69	1
-	+	67	0
-	+	69	20
-	+	65	15
-	+	132	28
-	+	69	129
-	+	72	38
-	+	71	48
-	+	72	14
-	+	73	17
-	+	126	0
-	+	131	19
-	+	73	15
-	+	132	40
-	+	65	27
-	+	69	138
+> ~/.git/COMMIT_EDITMSG
+	"	4	0
 
-> ~/work/vmware_vms_list.pl
-	"	104	0
-	^	89	2
-	.	74	0
-	+	83	16
-	+	85	39
-	+	87	20
-	+	87	19
-	+	87	14
-	+	85	0
-	+	87	11
-	+	99	0
-	+	100	0
-	+	101	0
-	+	102	0
-	+	103	0
-	+	104	0
-	+	105	0
-	+	106	0
-	+	89	1
-	+	87	0
-	+	86	0
-	+	85	0
-	+	74	0
-
-> ~/work/list_vms_test.pl
-	"	90	0
-	^	98	1
-	.	98	0
-	+	101	48
-	+	110	1
-	+	109	0
-	+	110	0
-	+	106	1
-	+	100	0
-	+	101	0
-	+	102	0
-	+	103	0
-	+	104	0
-	+	105	0
-	+	98	0
-
-> ~/work/perl-test/sub.pl
-	"	11	1
-	^	11	2
-	.	11	1
-	+	9	0
-	+	8	16
-	+	9	0
-	+	8	17
-	+	6	37
-	+	5	10
-	+	11	1
-
-> ~/work/perl-test/main.pl
-	"	5	21
-	^	5	22
-	.	5	22
-	+	8	37
-	+	5	22
-
-> ~/work/list_vms_fix.pl
-	"	104	0
-	^	82	11
-	.	82	4
-	+	68	8
-	+	68	4
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	0
-	+	60	40
-	+	68	0
-	+	68	0
-	+	68	0
-	+	68	0
-	+	68	0
-	+	62	0
-	+	61	0
-	+	62	0
-	+	63	0
-	+	64	0
-	+	65	0
-	+	66	0
-	+	63	24
-	+	64	24
-	+	65	11
-	+	101	70
-	+	60	0
-	+	68	0
-	+	82	0
-	+	101	9
-	+	102	3
-	+	103	3
-	+	104	3
-	+	59	10
-	+	73	4
-	+	82	4
-
-> ~/work/list_vms.pl
-	"	131	0
-	^	20	3
-	.	20	0
-	+	3	12
-	+	1	15
-	+	133	0
-	+	1	2
-	+	18	2
-	+	19	0
-	+	20	0
-
-> ~/work/gethost2.sh
-	"	7	0
-	^	8	70
-	.	8	69
-	+	8	0
-	+	9	0
-	+	8	0
-	+	10	0
-	+	11	0
-	+	8	69
-
-> ~/work/login-old.pl
-	"	13	0
-
-> ~/work/login.pl
-	"	27	0
-	^	37	31
-	.	37	30
-	+	25	12
-	+	19	47
-	+	23	0
-	+	23	0
-	+	23	20
-	+	15	74
-	+	15	34
-	+	16	0
-	+	18	40
-	+	15	35
-	+	16	0
-	+	15	36
-	+	25	22
-	+	32	0
-	+	30	4
-	+	29	32
-	+	26	0
-	+	28	23
-	+	27	0
-	+	7	8
-	+	29	22
-	+	29	31
-	+	19	0
-	+	21	44
-	+	22	0
-	+	22	0
-	+	21	44
-	+	22	0
-	+	22	0
-	+	21	0
-	+	21	0
-	+	21	0
-	+	21	0
-	+	21	0
-	+	21	0
-	+	21	0
-	+	21	15
-	+	21	15
-	+	21	15
-	+	21	18
-	+	21	20
-	+	22	7
-	+	23	21
-	+	21	0
-	+	21	0
-	+	21	0
-	+	21	0
-	+	21	0
-	+	19	0
-	+	22	0
-	+	15	0
-	+	21	0
-	+	22	0
-	+	46	0
-	+	44	0
-	+	42	9
-	+	44	0
-	+	11	10
-	+	15	0
-	+	14	1
-	+	15	0
-	+	18	0
-	+	18	0
-	+	18	0
-	+	18	0
-	+	19	0
-	+	21	0
-	+	21	0
-	+	23	0
-	+	23	0
-	+	25	0
-	+	25	0
-	+	26	1
-	+	28	2
-	+	28	3
-	+	29	4
-	+	30	4
-	+	31	2
-	+	34	7
-	+	28	0
-	+	25	0
-	+	23	0
-	+	21	0
-	+	42	17
-	+	43	18
-	+	29	16
-	+	37	31
-	+	40	23
-	+	42	53
-	+	12	38
-	+	18	0
-	+	18	0
-	+	18	0
-	+	18	0
-	+	17	29
-	+	20	0
-	+	18	0
-	+	13	0
-	+	15	0
-	+	37	30
-
-> ~/scrape/scrape2.pl
-	"	8	0
-	^	9	17
-	.	9	17
-	+	9	18
-	+	25	0
-	+	18	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	22	0
-	+	25	0
-	+	15	0
-	+	9	18
-	+	24	0
-	+	23	0
-	+	10	17
-	+	8	0
-	+	7	45
-	+	10	47
-	+	9	18
-	+	10	43
-	+	25	0
-	+	25	0
-	+	19	19
-	+	19	20
-	+	20	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	22	0
-	+	23	0
-	+	24	0
-	+	18	0
-	+	15	0
-	+	27	0
-	+	9	17
-
-> ~/scrape/scrape.pl
-	"	9	13
-	^	9	14
-	.	9	13
-	+	27	0
-	+	27	0
-	+	27	0
-	+	26	11
-	+	5	14
-	+	13	26
-	+	17	15
-	+	15	30
-	+	23	0
-	+	18	16
-	+	1	15
-	+	2	11
-	+	1	15
-	+	21	2
-	+	20	16
-	+	26	0
-	+	8	0
-	+	11	0
-	+	9	18
-	+	24	0
-	+	10	1
-	+	11	0
-	+	13	0
-	+	15	0
-	+	17	0
+> ~/work/perl-test/region_ref.pl
+	"	46	2
+	^	45	15
+	.	45	14
 	+	18	1
-	+	20	2
-	+	21	2
-	+	23	0
-	+	10	36
-	+	11	30
+	+	13	9
+	+	8	2
+	+	6	32
+	+	10	37
+	+	17	21
+	+	20	21
+	+	4	16
+	+	23	10
+	+	24	14
+	+	16	23
+	+	24	27
+	+	25	0
+	+	48	0
+	+	29	21
+	+	31	36
+	+	33	5
+	+	32	0
+	+	33	25
+	+	35	0
+	+	34	0
+	+	33	0
+	+	47	0
+	+	47	12
+	+	40	10
+	+	40	0
+	+	37	13
+	+	38	6
+	+	40	29
+	+	42	17
+	+	40	0
+	+	42	0
+	+	47	0
+	+	47	0
+	+	38	18
+	+	40	0
+	+	42	0
+	+	47	0
+	+	47	0
+	+	40	30
+	+	42	32
+	+	41	12
+	+	42	21
+	+	47	1
+	+	42	23
+	+	47	0
+	+	47	0
+	+	46	2
+	+	45	3
+	+	47	0
+	+	45	20
+	+	42	23
+	+	41	12
+	+	42	51
+	+	44	18
+	+	45	14
+
+> ~/work/perl-test/vimtest2.pl
+	"	37	2
+	^	35	25
+	.	35	24
+	+	6	0
+	+	18	2
 	+	20	0
-	+	19	22
-	+	10	35
-	+	9	13
+	+	24	40
+	+	25	31
+	+	26	32
+	+	25	32
+	+	41	6
+	+	38	11
+	+	41	25
+	+	40	0
+	+	46	1
+	+	50	21
+	+	23	12
+	+	22	19
+	+	23	19
+	+	24	1
+	+	25	0
+	+	26	0
+	+	29	0
+	+	32	0
+	+	34	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	42	0
+	+	44	0
+	+	46	0
+	+	46	0
+	+	48	0
+	+	46	25
+	+	46	0
+	+	46	25
+	+	24	34
+	+	25	27
+	+	26	27
+	+	25	29
+	+	26	29
+	+	64	0
+	+	47	1
+	+	44	2
+	+	21	10
+	+	46	1
+	+	46	0
+	+	64	0
+	+	46	1
+	+	44	12
+	+	44	5
+	+	44	34
+	+	44	34
+	+	46	0
+	+	44	41
+	+	46	0
+	+	45	0
+	+	56	7
+	+	52	26
+	+	53	0
+	+	63	0
+	+	52	18
+	+	56	41
+	+	62	0
+	+	61	2
+	+	60	18
+	+	58	25
+	+	54	15
+	+	60	16
+	+	28	22
+	+	30	21
+	+	33	26
+	+	35	24
+	m	48	0
 
-> ~/work/list_vms.pm
-	"	138	0
-	^	57	13
-	.	57	12
-	+	143	0
-	+	144	0
-	+	145	0
-	+	146	0
-	+	147	0
-	+	148	0
-	+	149	0
-	+	150	0
-	+	127	12
-	+	99	12
-	+	57	12
-
-> ~/work/jsontest2.pl
-	"	26	14
-	^	26	15
-	.	26	14
-	+	27	1
-	+	7	9
-	+	8	3
-	+	9	0
+> ~/work/perl-test/array_ref.pl
+	"	28	0
+	^	29	15
+	.	29	14
+	+	7	3
+	+	6	3
+	+	7	31
+	+	18	1
+	+	17	16
+	+	16	9
+	+	7	7
+	+	8	8
+	+	6	8
+	+	19	0
+	+	4	16
+	+	32	0
+	+	20	21
+	+	18	1
+	+	23	29
+	+	22	6
+	+	27	10
+	+	26	13
+	+	27	13
+	+	28	0
+	+	27	0
+	+	28	0
+	+	27	0
+	+	28	0
+	+	27	0
+	+	31	0
+	+	30	15
+	+	14	13
+	+	18	0
+	+	20	14
+	+	23	0
+	+	26	0
+	+	27	0
+	+	30	0
+	+	29	0
+	+	31	0
+	+	22	0
+	+	23	21
+	+	24	6
+	+	23	14
+	+	12	19
+	+	14	13
+	+	18	0
+	+	10	2
 	+	11	0
 	+	12	0
-	+	14	0
-	+	15	0
-	+	17	4
-	+	24	19
-	+	25	15
-	+	19	3
-	+	16	34
-	+	18	17
+	+	6	23
+	+	7	34
+	+	8	29
+	+	15	1
+	+	16	1
+	+	17	1
+	+	26	0
+	+	27	0
+	+	26	10
+	+	29	0
+	+	30	0
+	+	31	0
+	+	30	8
+	+	29	14
+
+> ~/work/perl-test/array_ref2.pl
+	"	23	10
+	^	23	11
+	.	23	10
+	+	10	9
+	+	8	30
+	+	10	19
+	+	12	25
+	+	17	24
+	+	10	9
+	+	12	6
+	+	14	6
+	+	16	6
+	+	17	6
+	+	12	7
+	+	14	7
+	+	16	7
+	+	17	7
+	+	18	0
+	+	19	31
+	+	20	0
+	+	10	8
+	+	12	8
+	+	14	8
+	+	16	8
+	+	17	8
+	+	19	8
+	+	21	0
+	+	22	25
+	+	4	16
+	+	22	13
+	+	24	0
+	+	22	21
+	+	23	10
+
+> ~/work/perl-test/test1.pl
+	"	8	3
+	^	18	2
+	.	18	1
+	+	22	0
+	+	21	0
+	+	20	0
 	+	19	0
-	+	24	11
-	+	25	15
-	+	24	13
-	+	25	15
-	+	7	12
-	+	24	22
-	+	13	13
-	+	16	33
-	+	25	16
-	+	26	14
-
-> ~/work/jsontest.pl
-	"	11	13
-	^	11	14
-	.	11	13
-	+	14	0
+	+	18	0
+	+	17	0
+	+	16	0
 	+	15	0
-	+	4	7
-	+	10	7
-	+	11	13
+	+	14	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	2	0
+	+	7	39
+	+	8	19
+	+	9	22
+	+	13	1
+	+	16	0
+	+	18	1
 
-> ~/work/lshost2.pl
+> /tmp/a.txt
+	"	8164	17
+	.	27	0
+	+	18	0
+	+	20	0
+	+	27	0
+
+> ~/work/whichClusterIsMyVMIn.pl
+	"	10	16
+	^	12	35
+	.	12	26
+	+	81	0
+	+	79	0
+	+	39	21
+	+	10	16
+	+	64	31
+	+	39	0
+	+	64	0
+	+	50	24
+	+	52	24
+	+	58	0
+	+	50	28
+	+	47	0
+	+	50	0
+	+	49	0
+	+	48	23
+	+	12	26
+
+> ~/vsphere-automation-sdk-perl/CONTRIBUTING.md
+	"	49	0
+	^	49	0
+	.	48	335
+	+	48	0
+	+	48	335
+
+> /usr/lib/vmware-vcli/apps/vm/vminfo.pl
+	"	38	0
+
+> ~/vmware-vsphere-cli-distrib/apps/vm/vminfo.pl
 	"	1	0
 
-> /ansible/gethost.sh
-	"	8	43
-	^	7	1
-	.	8	43
-	+	7	0
-	+	8	43
+> ~/vmware-vsphere-cli-distrib/vmware-install.pl
+	"	3849	0
 
-> ~/work/version.pl
-	"	15	0
-	^	14	1
-	.	14	0
-	+	36	0
-	+	15	0
-	+	14	43
-	+	12	0
-	+	16	0
-	+	19	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	35	0
-	+	23	0
-	+	25	3
-	+	24	18
-	+	25	32
-	+	34	0
-	+	23	0
-	+	7	8
-	+	33	4
-	+	32	52
-	+	26	57
-	+	31	0
-	+	32	0
-	+	33	0
-	+	28	23
-	+	31	0
-	+	32	0
-	+	33	0
-	+	30	0
-	+	29	14
-	+	32	56
-	+	31	23
-	+	22	0
-	+	13	0
-	+	16	32
-	+	14	0
+> ~/vsphere-automation-sdk-perl/README.md
+	"	72	0
 
-> /ansible/appmount-EmpDB1.yml
-	"	14	0
+> ~/vsphere-automation-sdk-perl/samples/Common/Vim/Vmdk.pm
+	"	63	16
 
-> ~/vsphere-automation-sdk-perl/samples/Vcenter/Vm/list_vms_name.pl
-	"	87	0
-	.	47	26
-	+	47	26
+> ~/vsphere-automation-sdk-perl/samples/Common/Vim/Inventory.pm
+	"	29	0
+
+> ~/vsphere-automation-sdk-perl/samples/ContentLibrary/README.md
+	"	15	12
+
+> ~/vsphere-automation-sdk-perl/samples/README.md
+	"	12	0
+
+> ~/vsphere-automation-sdk-perl/samples/Vcenter/Vm/README.md
+	"	7	30
+
+> ~/vsphere-automation-sdk-perl/samples/Vcenter/Vm/list_vms.pl
+	"	61	0
+
+> ~/work/reg_newvm_vmware.pm
+	"	30	3
+	.	51	26
+	+	51	26

@@ -1,88 +1,3 @@
-su
-ifconfig
-ls -l /tmp
-ls
-mount
-ls -l /mnt/cdrom
-su
-ifconfig
-id
-more /etc/redhat-release 
-pwd
-cd /home
-ls
-su -l ansible
-ls
-pwd
-cd ..
-ls
-find / -name ansible
-exit
-id
-exit
-sudo visudo
-sudo ps
-sudo ps -df
-ls
-ls -la
-pwd
-id
-which perl
-perl --version
-which ppm
-which cpan
-cpan XML::LibXML
-cpan UUID UUID::Random Crypt::OpenSSL::RSA Exception::Class Crypt::X509 Data::Compare Text::Template
-sudo /bin/make
-sudo /bin/make install
-exit
-ls /tmp
-ls -l /tmp/VMware-vSphere-Perl-SDK-6.7.0-8156551.x86_64.tar.gz 
-mv /tmp/VMware-vSphere-Perl-SDK-6.7.0-8156551.x86_64.tar.gz .
-pwd
-ls
-ls -la
-ls -l /tmp
-cp /tmp/VMware-vSphere-Perl-SDK-6.7.0-8156551.x86_64.tar.gz .
-ls
-sudo rm /tmp/VMware-vSphere-Perl-SDK-6.7.0-8156551.x86_64.tar.gz 
-ls -l /tmp
-ls
-tar zxvf VMware-vSphere-Perl-SDK-6.7.0-8156551.x86_64.tar.gz 
-ls
-cd vmware-vsphere-cli-distrib/
-ls -la
-./vmware-install.pl 
-exit
-which git
-pwd
-ls
-rm -rf vmware-vsphere-cli-distrib/
-rm VMware-vSphere-Perl-SDK-6.7.0-8156551.x86_64.tar.gz 
-ls -la
-git clone https://github.com/vmware/vsphere-automation-sdk-perl.git
-s
-ls
-cd vsphere-automation-sdk-perl/
-ls
-cd sample
-ls
-cd samples/
-ls
-cd Vcenter/
-ls
-cd Vm/
-ls
-perl ./list_vms.pl --server https://192.168.99.166 --username 'administrator@vsphere.local' --password '!Insight1310'
-pwd
-echo @INC
-echo INC
-echo $INC
-perl ./list_vms.pl --server https://192.168.99.166 --username 'administrator@vsphere.local' --password '!Insight1310'
-perl ./list_vms.pl --server https://192.168.99.166 --username 'administrator@vsphere.local' --password '!Insight1310' | grep Summary
-perl ./list_vms.pl --server https://192.168.99.166 --username 'administrator@vsphere.local' --password '!Insight1310' | grep Summary | wc -l
-perl ./list_vms.pl --server https://192.168.99.166 --username 'administrator@vsphere.local' --password '!Insight1310' | grep name
-perl ./list_vms.pl --server https://192.168.99.166 --username 'administrator@vsphere.local' --password '!Insight1310'
 ls
 perl ./list_vms_name.pl --server https://192.168.99.166 --username 'administrator@vsphere.local' --password '!Insight1310'
 ls
@@ -791,3 +706,295 @@ ls
 ./lshost.pl
 exit
 su -l
+ls
+which git
+git config --global user.name "hidemynimo"
+git config --global user.email hidekimasu5@gmail.com
+git config --global core.editor "vim -f"
+git init
+git add .
+git commit -m "Initialize repository"
+git log
+ls
+cd work
+ls
+git status
+ls -al ~/.ssh
+ssh-keygen -t rsa -b 4096 -C "hidekimasu5@gmail.com"
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+clip < ~/.ssh/id_rsa.pub
+su -l
+ls
+ls -l ~/.ssh/
+more ~/.ssh/id_rsa.pub
+git remote add origin https://github.com/hidekimasu/register_newvm.git
+git status
+git push
+ls
+git push -u origin master
+ls
+cp lshost.pl old/
+mv lshost.pl reg_newvm_main.pl
+mv list_vms_fix.pl reg_newvm_vmware.pl
+vi reg_newvm_main.pl
+cp reg_newvm_main.pl reg_newvm_act.pl
+vi reg_newvm_act.pl
+./reg_newvm_main.pl
+git push
+git push origin master
+ls
+vi vmware_vms_list.pl 
+ls -la
+./reg_newvm_main.pl 
+vi reg_newvm_vmware.pl 
+history | git
+ls
+cd vsphere-automation-sdk-perl/
+ls
+cd sample-template/
+ls
+vi sample_template.pl 
+cp sample_template.pl sample_test.pl
+vi sample_test.pl 
+grep new *
+ls
+vi sample_test.pl 
+pwd
+cd ..
+ls
+cd samples
+ls
+cd Common
+ls
+pwd
+vi SampleBase.pm 
+ls -l /home/masu/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+vi /home/masu/vsphere-automation-sdk-perl/samples/Common/SampleBase.pm
+ls
+vi SampleBase.pm 
+pwd
+ls
+cd ..
+ls
+pwd
+cd
+ls
+cd work
+ls
+./list_vms.pl
+vi list_vms.pl
+cd /usr/lib
+ls
+cd vmware-viperl
+ls
+cd apps
+ls
+cd vm
+ls
+vi vminfo.pl
+pwd
+cd ..
+ls
+cd ..
+ls
+cd
+ls
+cd vsphere-automation-sdk-perl/
+ls
+cd sample
+cd samples
+ls
+cd Common/
+ls
+vi SampleBase.pm 
+pwd
+ls
+cd Vim
+ls
+cd ..
+ls
+pwd
+cd ..
+ls
+pwd
+cd Vcenter/
+ls
+cd Vm/
+ls
+vi namelist.txt
+ls
+vi list_vms_name.pl 
+vi list_vms.pl
+pwd
+ls -ltr
+vi list_vms.pl
+vi list_vms_name.pl 
+vi list_vms.pl
+pwd
+ls
+vi README.md 
+ls
+pwd
+cd ..
+ls
+cd ..
+ls
+cd resources/
+ls
+ls -lR
+pwd
+cd ..
+ls
+cd SSO
+ls
+cd ..
+ls
+vi README.md 
+cd ContentLibrary/
+ls
+vi README.md 
+ls
+pwd
+cd ..
+ls
+cd Common/
+ls
+cd Vim
+ls
+vi Inventory.pm 
+pwd
+ls
+vi Vmdk.pm 
+ls
+wpd
+pwd
+cd ..
+ls
+cd ..
+ls
+pwd
+cd ..
+ls
+vi README.md 
+pwd
+cd ..
+ls
+df -h
+df -h .
+cd
+ls
+tar zxvf VMware-vSphere-Perl-SDK-6.5.0-4566394.x86_64.tar.gz 
+ls
+cd vmware-vsphere-cli-distrib/
+ls
+vi vmware-install.pl 
+ls
+cd apps
+ls
+cd vm
+ls
+vi vminfo.pl
+diff /usr/lib/vmware-viperl/apps/vm/vminfo.pl ./vminfo.pl 
+pwd
+ls
+pwd
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+pwd
+ls
+cd vsphere-automation-sdk-perl/
+ls
+vi CONTRIBUTING.md 
+tail -f /tmp/a.txt
+ls -l /tmp/a.txt
+vi /tmp/a.txt
+ls
+cd ..
+ls
+cd work
+ls
+grep Vim *
+tail -f /tmp/a.txt
+ls
+vi /tmp/a.txt
+cd perl-test/
+ls
+chmod +x test1.pl 
+./test1.pl
+ls
+ls -la
+pwd
+more hosts.pl
+ls
+./vimtest2.pl
+ls
+more hosts.pl
+./vimtest2.pl
+ls
+vi array_ref.pl
+chmod +x array_ref.pl 
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+vi array_ref.pl
+./array_ref.pl 
+ls
+chmod +x array_ref
+chmod +x array_ref2.pl 
+array_ref2.pl
+./array_ref2.pl 
+./array_ref.pl
+ls
+vi array_ref2.pl
+./array_ref2.pl
+vi array_ref2.pl
+./array_ref2.pl
+vi array_ref2.pl
+./array_ref2.pl
+vi array_ref2.pl
+./array_ref2.pl
+vi array_ref2.pl
+./array_ref2.pl
+vi array_ref2.pl
+./array_ref2.pl
+vi array_ref2.pl
+./array_ref2.pl
+vi array_ref2.pl
+./array_ref2.pl
